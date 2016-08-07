@@ -1,0 +1,80 @@
+html,
+body {
+    margin: 0;
+    padding: 10px;
+    -webkit-backface-visibility: hidden;
+    font-size: 16px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto 0;
+    text-align: center;
+}
+
+
+/* preview styles */
+
+.popup-gallery {
+    margin: 20px auto 0;
+    width: 600px;
+}
+
+html {
+    font-family: "Calibri", "Trebuchet MS", "Helvetica", sans-serif;
+}
+
+h1 {
+    margin: 5px;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 5px;
+}
+
+a.pop {
+    padding: 8px;
+    float: left;
+}
+
+select {
+    margin: 15px;
+    font-size: 15px;
+}
+
+@media all and (min-width: 480px) {
+    .mfp-arrow {
+        -webkit-transform: scale(1.6);
+        transform: scale(1.6);
+    }
+}
+
+.select-style {
+    border: 1px solid #ccc;
+    width: 130px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 160px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+.info {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
